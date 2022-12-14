@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Unofficial Alademoska's page survey</title>
+  <link rel="stylesheet" href="./style2.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Danos tu opinión</title>
+</head>
+<body>
+  <h1 id="title">Danos tu opinión</h1>
+  <section>
+    <p id="description">Dinos si hay algo que podamos mejorar en la pagina</p>
+      <form id="survey-form" action="">
+          <div id="personal-details">
+            <div>
+              <label  class="label-personal" id="name-label" for="Name"><sup>*</sup> Nombre:</label>
+                <input class="input-personal" id="name" name="firstname" type="text" placeholder="Enter your name" required>
+            </div>
+            <div>
+              <label  class="label-personal" id="email-label" for="Email"><sup>*</sup> Email:</label>
+                <input  class="input-personal" id="email" name="email" type="email" placeholder="Enter your Email">
+            </div>
+            <div>
+              <label class="label-personal" id="number-label" for="Age"><sup>*</sup> Edad:</label>
+                <input  class="input-personal" id="number" name="age" type="number" min="1" max="125" placeholder="Age" required>
+            </div>
+          </div>
+       
+        
+            <p id="roles-title">Usted es:</p>
+        
+              <select id="dropdown">
+                <option value="" disabled>Select an option</option>
+                <option value="" selected>Estudiante</option>
+                <option value="">Trabajador tiempo completo</option>
+                <option value="">Estudiante tiempo completo</option>
+                <option value="">Prefiero no decirlo</option>
+                <option value="">Otros</option>
+             </select> 
+         
+          
+            <p id="recommend-title"><sup>*</sup> Recomendarias esta pagina web a un amigo?</p>      
+            <div id="form-radio">
+              <div class="radio"> 
+                <input type="radio" id="recc" name="radio" value="definitely">
+                  <label id="recc-label"for="definitely">Definitivamente</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="recc" name="radio" value="maybe">
+                  <label for="maybe">Puede</label><br>
+              </div>
+              <div class="radio">
+                <input type="radio" id="recc" name="radio" value="not-sure">
+                  <label for="Not sure">No creo</label>
+              </div>
+            </div>
+         
+            <p id="opinion-title">Que pagina te ha gustado mas:</p>
+
+            <select id="opinions">
+              <option value="" disabled>Select an option</option>
+              <option value="">Pagina de inicio</option>
+              <option value=""  selected>Sobre Alademoska</option>
+              <option value="">Discos</option>
+              <option value="">Contactos</option>
+            <select/> 
+       
+        
+        <p id="suggestion-title">Cosas a mejorar:</p>
+          <div id="form-suggestions"> 
+           <div class="suggestions"> 
+             <input type="checkbox" name="Front-end Projects" value="Front-end Projects">
+             <label for="Front-end Projects">Fuente</label>
+           </div>
+           <div class="suggestions"> 
+             <input type="checkbox" name="Back-end Projects" value="Back-end Projects">
+             <label for="Back-end Projects">Tamaños</label>
+           </div>
+           <div class="suggestions">   
+             <input type="checkbox" name="Data Visualization" value="Data Visualization">
+             <label for="Data Visualization">Imagenes</label>
+           </div>
+           <div class="suggestions"> 
+             <input type="checkbox" name="Challenges" value="Challenges">
+             <label for="Challenges">Colores</label>
+           </div>
+           <div class="suggestions"> 
+              <input type="checkbox" name="Open Source Community" value="Open Source Communitys">
+              <label for="Open Source Community">Informacion</label>
+           </div>
+           <div class="suggestions"> 
+              <input type="checkbox" name="Gitter help rooms" value="Gitter help rooms">
+              <label for="Gitter help rooms">Paginas</label>
+           </div>
+           <div class="suggestions"> 
+              <input type="checkbox" name="Videos" value="Videos">
+              <label for="Videos">Formulario</label>
+           </div>
+           <div class="suggestions"> 
+              <input type="checkbox" name="Wiki" value="Wiki">
+              <label for="Wiki">Enlaces</label>
+           </div>
+           <div class="suggestions"> 
+              <input type="checkbox" name="Forum" value="Forum">
+              <label for="Forum">Spotify</label>
+           </div>
+           <div class="suggestions"> 
+              <input type="checkbox" name="Additional Courses" value="Additional Courses">
+              <label for="Additional Courses">Fechas</label><br>
+           </div>
+        </div>
+                  
+          <p id="comments-title">Algun comentario</p>
+           
+          <textarea id="comments" name="message" rows="10" cols="30" placeholder="Enter your comment here..."></textarea>
+          
+          <input id="submit" type="submit" value="Submit">
+       
+              
+     </form>    
+  </section>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,174 @@
+/*----------General area------------*/
+body{
+  background-color: #152220;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: #f30000;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 2em
+
+ }
+/*----------End of General area------------*/
+
+/*----------Main area------------*/
+section{
+  background-color: #8f8c8e;
+  padding: 30px;
+  width:50%;
+  height: 950px;
+  margin: auto;
+}
+/*----------End of ain area------------*/
+
+/*----------Main area title------------*/
+#description{
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  padding: 2px;
+}
+/*----------End of Main title------------*/
+
+/*----------Form Main------------*/
+#survey-form{
+  padding-left: 50px; 
+}
+/*----------End of Form Main------------*/
+
+/*----------Form Personal Details------------*/
+
+.label-personal{
+  float: left;
+  width: 100px;
+  font-size: 0.95em;
+  text-align: right;
+  padding-right: 12px;
+  margin-top: 18px;
+  margin-left: 250px;
+  clear: left;
+}
+
+.input-personal {
+  font-size: 0.8em;
+  margin-top: 18px;
+  height: 30px;
+  width: 250px;
+  padding:0px 0.5%;
+}
+
+/*----------End of Form Personal Details------------*/
+
+/*----------Form Reviewer's Role------------*/
+
+#roles-title {
+  width: 350px;
+  text-align: right;
+  padding-right: 12px;
+  margin-top: 22px;
+  float: left;
+}
+
+#dropdown {
+  margin-top: 22px;
+  height: 30px;
+  width: 150px;
+  padding: 6px 0.5%;
+}
+
+/*----------End of Form Reviewer's Role------------*/
+
+/*----------Form Recommend------------*/
+#recommend-title {
+  clear: both;
+  width: 300px;
+  text-align: right;
+  float: left;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+#form-radio {
+  margin-top: 25px;
+}
+
+.radio {
+  padding-bottom: 5px;
+}
+/*----------End of Form Recommend------------*/
+/*----------Form Opinion------------*/
+#opinion-title {
+  clear: both;
+  width: 300px;
+  text-align: right;
+  float: left;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#opinions {
+  margin-top: 30px;
+  height: 30px;
+  width: 150px;
+}
+/*----------End of Form Opinion------------*/
+/*----------Form Suggestion------------*/
+#suggestion-title {
+  clear: both;
+  width: 300px;
+  text-align: right;
+  float: left;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#form-suggestions {
+  margin-top: 35px;
+  float: left;
+}
+.suggestions {
+  margin-bottom: 12px;
+}
+/*----------End of Form Suggestion------------*/
+/*----------Form Comments------------*/
+#comments-title {
+  clear: both;
+  width: 300px;
+  text-align: right;
+  float: left;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#comments {
+  float: left;
+  margin-top: 30px; 
+  resize: vertical;
+  height: 80px;
+  width: 250px;
+  
+}
+/*----------End of Form Comments------------*/
+/*----------Form Submis------------*/
+#submit {
+  clear: both;
+  float: left;
+  margin-left: 340px;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(255, 0, 0);
+  background-color: #09131a;
+  font-size: 1.1em;
+}
+/*----------End of Form Submit------------*/
