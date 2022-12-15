@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .border {
   height: 369px;
@@ -19,17 +19,17 @@
   position: relative;
 }
 .border:hover {
-  border: 1px solid #fff;
+  border: 1px solid rgb(59, 59, 59);
 }
 .card {
-  height: 379px;
+  height: 305px;
   width: 300px;
   background: #332a2a;
   border-radius: 10px;
   transition: background 0.8s;
   overflow: hidden;
   background: rgb(175, 21, 21);
-  box-shadow: 0 70px 63px -60px rgb(128, 90, 90);
+  box-shadow: 0 70px 63px -60px rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@
   background-size: 300px;
 }
 .card0:hover {
-  background: url("https://www.malditorecords.net/UserFiles/discos/ADM%20SR%20PORTADA%20-%20web.jpg") left center no-repeat;
+  background: url("file:///C:/Users/Alumnado/Documents/GitHub/comunista24.github.io/Im%C3%A1genes/disco1.jpg") left center no-repeat;
   background-size: 600px;
 }
 .card0:hover h2 {
@@ -79,8 +79,8 @@
 }
 h2 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: rgb(255, 119, 119);
-  margin: 20px;
+  color: rgb(0, 0, 0);
+  margin: 45px;
   opacity: 0;
   transition: opacity 1s;
 }
@@ -99,4 +99,9 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.texto-borde {
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }

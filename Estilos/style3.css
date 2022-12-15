@@ -1,0 +1,27 @@
+body {
+  background-color: #1ED760;
+}
+.card {
+      border-radius: 10px;
+      background-color: black;
+      width: 50%;
+    }
+
+.list > div {
+  margin: 20px 0;
+  border-radius: 5px;
+  background-color: black;
+  width: 500px;
+  height: 45px;
+  line-height: 50px;
+  color: white;
+}
+
+.list > div:hover {
+  background-color: #1ED760;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -160,9 +160,10 @@ p.primero {
 p.segundo {
   text-indent:7 cm;
   font-family:Arial, Helvetica, sans-serif;
-  color:pink;
+  color:rgb(255, 60, 0);
 }
 
 nav.imagen{
   width: 20%;
 }
+
